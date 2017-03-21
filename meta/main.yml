@@ -1,0 +1,15 @@
+---
+
+dependencies:
+
+galaxy_info:
+  author: Samuel Irvine
+  description: Install a fix for Ubuntu 16.04 suspend WiFi issues
+  license: MIT
+  min_ansible_version: 2.2.1.0
+  platforms:
+  - name: Ubuntu
+    versions:
+    - "16.04"
+  categories:
+    - system
