@@ -4,5 +4,5 @@
   copy:
     src: wifi-fix.d
     dest: /lib/systemd/system-sleep/
-    mode: +x
+    mode: a+x
   become: true
