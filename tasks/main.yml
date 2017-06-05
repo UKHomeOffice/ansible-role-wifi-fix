@@ -1,8 +1,8 @@
 ---
 
 - name: Copy suspend script to correct directory
-  copy:
+  template:
     src: wifi-fix.sh
     dest: /lib/systemd/system-sleep/
-    mode: a+x
+    mode: 0755
   become: true
